@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo apt-get install -y httpd
-sudo systemctl start httpd && systemctl enable httpd
+sudo apt-get install -y apache
+sudo systemctl start apache && systemctl enable apache
